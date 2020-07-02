@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="bg-primary">
+    <header class="bg-primary" style="position: fixed; width: 100%;z-index: 1;">
         <div class="row text-white">
            <div class="col-md-6 col-9 p-4">
-              <h2>Justin Paul</h2>
+            <h3>
+                <a class="nav-link text-white" href="https://justinpaul707.github.io/PersonalWebsite">Justin Paul <span class="sr-only">(current)</span></a>
+            </h3>
           </div>
              <div class="col-md-6 col-3">
                 <nav class="navbar navbar-expand-lg navbar-light bg-primary ml-auto">
@@ -24,22 +26,18 @@
                       <ul class="navbar-nav ml-auto pt-3">
                         <li class="nav-item active">
                          <h5>
-                          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
                          </h5>
                         </li>
                         <li class="nav-item active">
-                            <h5><a class="nav-link text-white" href="#">Services <span class="sr-only">(current)</span></a></h5>
+                            <h5><a class="nav-link text-white" href="#services-section">Services <span class="sr-only">(current)</span></a></h5>
                         </li>
                         <li class="nav-item active">
-                            <h5><a class="nav-link text-white" href="#">Skills <span class="sr-only">(current)</span></a></h5>
+                            <h5><a class="nav-link text-white" href="#skill-section">Skills <span class="sr-only">(current)</span></a></h5>
                         </li>
                         <li class="nav-item active ">
-                            <h5><a class="nav-link text-white" href="#">Contact me <span class="sr-only">(current)</span></a></h5>
+                            <h5><a class="nav-link text-white" href="#contact-section">Contact me <span class="sr-only">(current)</span></a></h5>
                         </li>
-                        <li class="nav-item active">
-                            <h5><a class="nav-link text-white" href="#">Login <span class="sr-only">(current)</span></a></h5>
-                        </li>
-
                       </ul>
                     </div>
                   </nav>
@@ -49,7 +47,7 @@
       </div>
 
     </header>
-    <section class="bg-light">
+    <section class="bg-light" id="home-section" style="padding-top: 9em;">
         <div class="container">
              <div class="row align-item-center">
                 <div class="col-md-6">
@@ -64,7 +62,7 @@
         </div>
     </section>
     <br>
-    <section class="bg-secondary light p-5">
+    <section class="bg-secondary light p-5" id="services-section">
         <h1 class="text-center mb-5">Services</h1>
         <div class="container">
 
@@ -74,9 +72,9 @@
                             <h3 class="card-title">Web Design</h3>
                             <img src="https://img.icons8.com/wired/50/000000/web-design.png"/>
                             <p class="card-text">
-                               <h5> It is the first project i have been <br>
-                                taken lot of fun coding using <br>
-                                HTML5,CS3,Javascript,bootstrap4
+                               <h5> Web design is the process of planning, conceptualizing, and arranging content intended for the Internet 
+                                and lot of fun coding with <br>
+                                HTML5,CS3,Javascript,Bootstrap4
                                 <br>
                             </p></h5>
                         </div>
@@ -107,7 +105,7 @@
                     </div>
                 </div>
 </section>
-                <section class="bg-secondary light p-5">
+                <section class="bg-secondary light p-5" id="skill-section">
                     <h1 class="text-center mb-5">Skills</h1>
                     <div class="card-deck mt-5">
                         
@@ -129,10 +127,11 @@
                                 <h3 class="card-title">Java</h3>
                                 <img src="https://img.icons8.com/ios-filled/50/000000/java-coffee-cup-logo--v1.png"/>
                                 <p class="card-text">
-                                   <h5> One of the excited language 
-                                    ever learn Firstly it is complex on me 
+                                   <h5> Java is a general-purpose programming language  that is class-based, object-oriented
+                                      and One of the excited language 
+                                    ever learn, Firstly it is complex  
                                     after <br> that it is more fun 
-                                    well known oops concepts
+                                    well cleared oops concepts
                                 </p></h5>
                             </div>
                         </div>
@@ -149,7 +148,7 @@
                         </div>
                     </div>
                 </section>
-         <section class="p-5 bg-light">
+         <section class="p-5 bg-light" id="contact-section">
                 <div class="container">
                     <h2 class="pt-3 text-center">Contact me</h2>
                     <div class="row pt-3">
@@ -185,7 +184,7 @@
 
 
                 </div>
-            </section>
+            </section >
             <footer class="bg-primary">
                 <div class="container">
                     <div class="row">
